@@ -1,4 +1,8 @@
 package com.example.a30days.model
 
-class Day {
-}
+data class Day(
+    val dayNumber: Int,
+    val titleResId: Int,
+    val descriptionResId: Int,
+    val imageResId: Int
+)
