@@ -58,7 +58,7 @@ import androidx.compose.ui.unit.dp
 import com.example.superheroes.model.Hero
 import com.example.superheroes.model.HeroesRepository
 import com.example.superheroes.ui.theme.SuperheroesTheme
-
+import com.example.myapplication.R
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun HeroesList(
