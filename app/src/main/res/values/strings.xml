@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">30days</string>
+    <string name="app_name">30 Days Of Wellness</string>
+    <string name="day1_title">Drink a glass of water</string>
+    <string name="day1_desc">Start your day with hydration to kickstart your metabolism.</string>
+    <string name="day2_title">Take a 10-minute walk</string>
+    <string name="day2_desc">A short walk can boost your mood and energy levels.</string>
+    <string name="day3_title">Practice deep breathing</string>
+    <string name="day3_desc">Spend 5 minutes focusing on your breath to reduce stress.</string>
 </resources>
