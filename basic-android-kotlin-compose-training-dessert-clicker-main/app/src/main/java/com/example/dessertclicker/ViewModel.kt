@@ -1,8 +1,9 @@
 package com.example.dessertclicker
 
 import androidx.lifecycle.ViewModel
+import androidx.room.util.copy
+import com.example.dessertclicker.data.DessertUiState
 import com.example.dessertclicker.model.Dessert
-import com.example.dessertclicker.model.DessertUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -10,9 +11,9 @@ import kotlinx.coroutines.flow.update
 
 class DessertViewModel : ViewModel() {
     // Внутреннее изменяемое состояние
-    private val _uiState = MutableStateFlow(DessertUiState())
+    private val _uiState = MutableStateFlow(DessertUiState)
     // Публичное неизменяемое состояние для UI
-    val uiState: StateFlow<DessertUiState> = _uiState.asStateFlow()
+    val uiState: StateFlow<Unit> = _uiState.asStateFlow()
 
     // Здесь будут методы для обработки действий пользователя
     fun onDessertClicked() {
